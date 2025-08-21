@@ -86,7 +86,7 @@
         Math {
             bindings = <
 &none  &trans           &kp AMPERSAND        &kp MINUS              &kp UNDER       &kp DOLLAR    &kp CARET     &kp BACKSPACE    &kp PLUS                &kp EQUAL  &trans    &none
-&none  &kp NUMBER_1     &kp N2               &slowhm N3 LEFT_SHIFT  &kp N4          &kp N5        &kp NUMBER_6  &kp N7           &slowhm N8 RIGHT_SHIFT  &kp N9     &kp N0    &none
+&none  &kp NUMBER_1     &kp N2               &slowhm N3 LEFT_SHIFT  &lt 1 N4        &kp N5        &kp NUMBER_6  &kp N7           &slowhm N8 RIGHT_SHIFT  &kp N9     &kp N0    &none
 &none  &kp NON_US_BSLH  &kp LS(NON_US_BSLH)  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE  &kp LBKT      &kp RBKT      &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS   &trans     &kp FSLH  &none
                                              &trans                 &trans          &trans        &trans        &trans           &trans
             >;
@@ -103,9 +103,9 @@
 
         Sym {
             bindings = <
-&none  &trans    &trans  &trans    &trans      &trans         &trans     &kp TILDE  &kp PIPE   &kp DOUBLE_QUOTES     &kp NUHS               &none
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &trans    &trans  &trans    &trans      &trans         &trans     &trans     &trans     &trans                &trans                 &none
+&none  &trans    &trans  &trans    &trans      &trans         &trans     &kp TILDE  &kp PIPE   &kp DOUBLE_QUOTES     &kp NUHS  &none
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp APOS  &none
+&none  &trans    &trans  &trans    &trans      &trans         &trans     &trans     &trans     &trans                &trans    &none
                          &trans    &trans      &trans         &trans     &trans     &trans
             >;
         };
