@@ -81,10 +81,10 @@
 
         Mouse {
             bindings = <
-&none  &kp K_REDO  &kp K_UNDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT    &trans     &kp BACKSPACE   &kp DELETE      &kp RET       &trans           &none
-&none  &trans      &trans      &trans       &trans      &trans       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none  &trans      &trans      &trans       &trans      &trans       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
-                               &trans       &trans      &trans       &mkp RCLK  &mkp LCLK       &mkp MCLK
+&none  &kp LC(Y)  &kp LC(Z)  &kp LC(C)  &kp LC(V)  &kp LC(X)    &trans     &kp BACKSPACE   &kp DELETE      &kp RET       &trans           &none
+&none  &trans     &trans     &trans     &trans     &trans       &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
+&none  &trans     &trans     &trans     &trans     &trans       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
+                             &trans     &trans     &trans       &mkp RCLK  &mkp LCLK       &mkp MCLK
             >;
         };
 
