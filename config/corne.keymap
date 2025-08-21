@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp K_REDO    &kp K_UNDO  &kp K_PASTE     &kp K_COPY    &kp K_CUT     &kp CAPSLOCK  &kp BACKSPACE  &kp DELETE     &kp RET       &trans     &none
-&none  &kp LEFT_WIN  &kp LCTRL   &kp LEFT_SHIFT  &kp LEFT_ALT  &kp ESCAPE    &kp TAB       &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none
-&none  &trans        &trans      &trans          &trans        &trans        &trans        &kp HOME       &kp PAGE_DOWN  &kp PG_UP     &kp END    &none
-                                 &trans          &trans        &trans        &trans        &trans         &trans
+&none  &kp C_AC_REDO  &kp C_AC_UNDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT    &kp CAPSLOCK  &kp BACKSPACE  &kp DELETE     &kp RET       &trans     &none
+&none  &kp LEFT_WIN   &kp LCTRL      &kp LEFT_SHIFT  &kp LEFT_ALT   &kp ESCAPE      &kp TAB       &kp LEFT       &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none
+&none  &trans         &trans         &trans          &trans         &trans          &trans        &kp HOME       &kp PAGE_DOWN  &kp PG_UP     &kp END    &none
+                                     &trans          &trans         &trans          &trans        &trans         &trans
             >;
         };
 
