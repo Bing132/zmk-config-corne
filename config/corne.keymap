@@ -103,10 +103,10 @@
 
         Sym {
             bindings = <
-&none  &trans    &trans             &trans        &trans      &trans         &trans     &trans    &kp TILDE  &kp AT                &kp NUHS               &none
-&none  &kp EXCL  &kp DOUBLE_QUOTES  &kp LA(HASH)  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &trans    &trans             &trans        &trans      &trans         &trans     &trans    &trans     &trans                &trans                 &none
-                                    &trans        &trans      &trans         &trans     &trans    &trans
+&none  &trans    &trans             &trans    &trans      &trans         &trans     &trans    &kp TILDE  &kp AT                &kp NUHS               &none
+&none  &kp EXCL  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none  &trans    &trans             &trans    &trans      &trans         &trans     &trans    &trans     &trans                &trans                 &none
+                                    &trans    &trans      &trans         &trans     &trans    &trans
             >;
         };
 
